@@ -1,10 +1,16 @@
 const QRCode = require('qrcode');
 const jsQR = require('jsqr')
 const {Jimp} = require('jimp')
-
+const fs = require('fs');
+const path = require('path');
 
 async function generateQR(input) {
   try {
+    const uploadsFolder = path.join(process.cwd(), 'uploads');
+    if (!fs.existsSync(uploadsFolder)) {
+      fs.mkdirSync(uploadsFolder);
+    }
+
     await QRCode.toFile('./uploads/qr-code.png', input, { //generates to uploads folder
       errorCorrectionLevel: 'H'
     });
