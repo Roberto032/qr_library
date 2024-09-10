@@ -6,7 +6,7 @@ const path = require('path');
 
 async function generateQR(input) {
   try {
-    const uploadsFolder = path.join(process.cwd(), 'uploads');
+    const uploadsFolder = path.join(process.cwd(), 'uploads'); //creates uploads folder if doesnt exist
     if (!fs.existsSync(uploadsFolder)) {
       fs.mkdirSync(uploadsFolder);
     }
