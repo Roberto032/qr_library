@@ -1,0 +1,21 @@
+{
+  "name": "qr_library",
+  "version": "1.0.0",
+  "description": "https://www.npmjs.com/package/jimp\r Image Processing\r --npm i jimp",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "node ./test/testQRModule.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jimp": "^1.6.0",
+    "qrcode": "^1.5.4",
+    "jsqr": "^1.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

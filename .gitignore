@@ -1,0 +1,76 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+stacktrace.txt
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build and output directories
+dist/
+build/
+out/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Temporary files
+*.tmp
+*.swp
+
+# MacOS file
+.DS_Store
+
+# Coverage reports
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled files
+*.o
+*.a
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg

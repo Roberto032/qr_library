@@ -1,0 +1,20 @@
+Simple QR Code Library that generates and reads QR codes
+
+https://www.npmjs.com/package/jimp
+Image Processing
+--npm i jimp
+
+https://www.npmjs.com/package/jsqr
+QR Code Reader / Decoder
+--npm i jsqr
+
+https://www.npmjs.com/package/qrcode
+QR Code Generator
+--npm i qrcode
+
+
+Instructions:
+
+-Install all dependancies (npm install)
+-to run:
+--npm run dev
